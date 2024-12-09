@@ -1,0 +1,108 @@
+.carousel-container {
+  max-width: 1400px;
+  margin: auto;
+  position: relative;
+}
+
+.carousel-image {
+  height: 500px;
+  object-fit: fill;
+}
+
+.carousel-caption {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  transition: opacity 0.5s;
+}
+
+.carousel-item {position: relative;}
+
+.carousel-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+  /* Black transparent overlay by default */
+  transition: opacity 0.5s;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}
+
+.job-listings {
+  padding: 2em;
+}
+
+.job-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5em;
+}
+
+.job-card {
+  background-color: #0077b6;
+  color: #ffffff;
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  background: linear-gradient(90deg, #0077b6, #00a6d6);
+}
+
+.job-card {
+  background-color: #0077b6;
+  color: #ffffff;
+  padding: 1.5em;
+  border-radius: 8px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  transition: transform 0.2s;
+}
+
+.job-card h3,
+.job-card p {
+  margin: 0;
+}
+
+.job-card:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+  background: linear-gradient(90deg, #0077b6, #00a6d6);
+}
+
+.job-card button {
+  margin-top: 10px;
+}
+
+.footer {
+  background-color: #0077b6;
+  color: #ffffff;
+  padding: 1em 0;
+  margin-top: 2em;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

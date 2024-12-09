@@ -1,0 +1,24 @@
+/* Login.css */
+
+.login-container {
+    height: 88vh;
+    background-color: #f8f9fa; /* Light background for contrast */
+  }
+  
+  .login-box {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 400px; 
+  }
+  
+h1 {color: #333; }
+.form-label {font-size: 16px;}
+input {font-size: 16px;}
+.btn {width: 100%;}
+.forgot-password {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+.forgot-password:hover {text-decoration: underline;}
